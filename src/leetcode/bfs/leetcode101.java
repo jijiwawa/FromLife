@@ -1,14 +1,6 @@
 package leetcode.bfs;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
+import common.TreeNode;
 
 class Solution101 {
     private StringBuffer ans_L;
